@@ -1,0 +1,99 @@
+# ---- OS junk ----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ---- Editors / IDEs ----
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+.vim/
+*.code-workspace
+
+# ---- Markdown / docs tooling ----
+node_modules/
+.npm/
+.yarn/
+pnpm-debug.log*
+.cache/
+_book/
+_site/
+site/
+public/
+*.epub
+*.mobi
+
+# ---- Python (for the small scripts in the notes) ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# ---- C / C++ build artifacts (memory-safety demos) ----
+*.o
+*.obj
+*.so
+*.so.*
+*.a
+*.lib
+*.dll
+*.dylib
+*.exe
+*.out
+*.dSYM/
+build/
+cmake-build-*/
+
+# ---- Compiled binaries from exploitation practice ----
+a.out
+core
+core.*
+*.core
+vgcore.*
+*.gcda
+*.gcno
+
+# ---- Databases / data dumps ----
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.sql.gz
+
+# ---- Jupyter / R ----
+.Rhistory
+.RData
+.Rproj.user
+
+# ---- Secrets / local machine state ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+*.local.md
+notes/**/scratch/
+
+# ---- Logs and temp ----
+*.log
+tmp/
+temp/
+*.tmp
+*.bak
